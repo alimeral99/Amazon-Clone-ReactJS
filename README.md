@@ -9,6 +9,7 @@
 - Material-Ui-Icon
 - Css Responsive Design
 - React-Router-Dom
+- Redux-Toolkit
 
 
 
