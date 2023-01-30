@@ -1,0 +1,69 @@
+.empty__outList {
+  height: 100vh;
+  background-color: #eaeded;
+  padding: 15px 20px;
+  display: flex;
+  height: 100vh;
+}
+
+.check__outList {
+  background-color: #eaeded;
+  padding: 15px 20px;
+  display: flex;
+  height: fit-content;
+}
+
+.sub__total {
+  width: 28%;
+  margin-left: auto;
+  height: 120px;
+  background-color: #ffffff;
+  padding: 25px;
+  text-align: center;
+}
+
+.check__list {
+  width: 75%;
+  margin: 0 5px;
+  padding: 15px 20px;
+  background-color: #ffffff;
+}
+
+.check__listHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__left {
+  font-weight: 450;
+  font-size: 25px;
+}
+
+.header__right {
+  color: gray;
+  font-weight: 250;
+  font-size: 15px;
+}
+
+.sub__total > h4 {
+  font-weight: 400;
+  font-size: 18px;
+  text-align: start;
+  padding-left: 15px;
+}
+
+.sub__total .total {
+  font-weight: bold;
+  padding-left: 5px;
+}
+
+.sub__total .total__btn {
+  width: 90%;
+  background-color: #f7ca00;
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 40px;
+}

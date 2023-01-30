@@ -1,0 +1,19 @@
+.home {
+  background-color: #e3e6e6;
+}
+
+.categories__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  z-index: 4;
+  position: relative;
+  margin-top: -70px;
+}
+
+@media screen and (max-width: 800px) {
+  .categories__container {
+    margin-top: 0px;
+    padding: 10px;
+  }
+}

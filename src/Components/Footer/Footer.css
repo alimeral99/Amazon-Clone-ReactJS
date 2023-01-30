@@ -1,0 +1,28 @@
+.footer {
+  background-color: #131a22;
+  color: white;
+  padding: 20px;
+}
+
+.footer__logo {
+  height: 40px;
+}
+
+.footer__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.footer__content ul {
+  list-style: none;
+}
+
+.footer__header {
+  margin-bottom: 10px;
+}
+
+.footer__content ul li {
+  margin-top: 5px;
+  font-weight: 300;
+}

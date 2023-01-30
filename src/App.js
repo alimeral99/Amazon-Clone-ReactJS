@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect } from "react";
+import "./App.css";
+import Header from "./Components/Header/Header";
+import Home from "./Components/Home/Home";
+import Footer from "./Components/Footer/Footer";
+import CheckOutList from "./Components/CheckOutList/CheckOutList";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import ProductList from "./Components/ProductList/ProductList";
+import { useSelector, useDispatch } from "react-redux";
+import { calculateTotals } from "./store/slice/basketSlice";
 
 function App() {
+  const basketItem = useSelector((state) => state.basket.basketItem);
+  const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(calculateTotals());
+  }, [basketItem, dispatch]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <Router>
+        <Header />
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route path="/products/:title" element={<ProductList />} />
+          <Route path="/checkOut" element={<CheckOutList />} />
+        </Routes>
+        <Footer />
+      </Router>
     </div>
   );
 }

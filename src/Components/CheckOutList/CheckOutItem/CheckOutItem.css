@@ -1,0 +1,53 @@
+.check__OutItem {
+  margin: 10px 0;
+  border-top: 1px solid lightgray;
+  padding: 25px 10px;
+  display: flex;
+}
+
+.check__image {
+  width: 180px;
+  height: 150px;
+  object-fit: contain;
+}
+
+.check__outInfo {
+  margin-left: 10px;
+}
+
+.check__outInfo > .check__outHeader {
+  font-weight: 400;
+  width: 90%;
+  line-height: 25px;
+}
+
+.check__outButtons {
+  margin-top: 40px;
+}
+
+.check__outButtons > button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: darkcyan;
+}
+
+.check__outButtons > button:hover {
+  text-decoration: underline;
+}
+
+.check__outPrice {
+  margin-left: auto;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 950px) {
+  .check__OutItem {
+    flex-wrap: wrap;
+  }
+
+  .check__outInfo > .check__outHeader {
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,32 @@
+.slider__img {
+  position: relative;
+}
+
+.slider__img > img {
+  width: 100%;
+  z-index: -1;
+  margin-bottom: -160px;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+.slider__img button {
+  position: absolute;
+  top: 40%;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.prev__btn {
+  left: 2%;
+}
+
+.next__btn {
+  right: 2%;
+}
+
+@media screen and (max-width: 800px) {
+  .slider__img {
+    display: none;
+  }
+}
