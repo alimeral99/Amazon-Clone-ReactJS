@@ -1,6 +1,6 @@
 # Amazon Clone ReactJS
 
-[Project-Link](https://shimmering-pony-da16c3.netlify.app//)
+[Project-Link]https://amazon-clone-reactjs99.netlify.app//)
 
 
 ### Topics
