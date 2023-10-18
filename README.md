@@ -5,8 +5,8 @@
 
 ### Topics
 - React
-- Firebase-Firestore-DataBase
-- Material-Ui-Icon
+- Firebase-Firestore-Database
+- Material-UI-Icon
 - Css Responsive Design
 - React-Router-Dom
 - Redux-Toolkit
