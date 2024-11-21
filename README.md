@@ -5,10 +5,10 @@ A small web app that tries to imitate the desktop web version of amazon site, yo
 
 
 ### Features
-Complete the checkout screen with Redux-Toolkit.
-Firebase for real time database
-Deploy the App LIVE on Netilfy
-Responsive Design
+- Complete the checkout screen with Redux-Toolkit.
+- Firebase for real time database
+- Deploy the App LIVE on Netilfy
+- Responsive Design
 
 ### Topics
 - React
